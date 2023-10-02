@@ -1,6 +1,24 @@
 # TechnoHacks_Classify_Iris_Flowers
 The Classification of Iris Flowers project involves building a machine-learning model to classify iris flowers into different species based on their sepal and petal dimensions. This classic project is often used as an introductory example in the field of machine learning and serves as a foundation for understanding various concepts and techniques.
 
+# Dataset
+pip install ucimlrepo
+from ucimlrepo import fetch_ucirepo 
+  
+#fetch dataset 
+iris = fetch_ucirepo(id=53) 
+  
+#data (as pandas dataframes) 
+X = iris.data.features 
+y = iris.data.targets 
+  
+#metadata 
+print(iris.metadata) 
+ 
+#variable information 
+print(iris.variables) 
+
+
 # Objectives:
 
 Data Collection: Obtain the Iris dataset, a well-known and publicly available dataset that contains measurements of sepal length, sepal width, petal length, and petal width for three species of iris flowers: Setosa, Versicolor, and Virginica.
