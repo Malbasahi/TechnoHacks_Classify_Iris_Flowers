@@ -2,6 +2,7 @@
 The Classification of Iris Flowers project involves building a machine-learning model to classify iris flowers into different species based on their sepal and petal dimensions. This classic project is often used as an introductory example in the field of machine learning and serves as a foundation for understanding various concepts and techniques.
 
 # Dataset
+```python
 pip install ucimlrepo
 from ucimlrepo import fetch_ucirepo 
   
@@ -16,8 +17,9 @@ y = iris.data.targets
 print(iris.metadata) 
  
 #variable information 
-print(iris.variables) 
+print(iris.variables)
 
+```
 
 # Objectives:
 
