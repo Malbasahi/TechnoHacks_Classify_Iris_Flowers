@@ -4,6 +4,8 @@ The Classification of Iris Flowers project involves building a machine-learning 
 # Dataset
 ```python
 pip install ucimlrepo
+```
+```python
 from ucimlrepo import fetch_ucirepo 
   
 #fetch dataset 
@@ -18,7 +20,6 @@ print(iris.metadata)
  
 #variable information 
 print(iris.variables)
-
 ```
 
 # Objectives:
